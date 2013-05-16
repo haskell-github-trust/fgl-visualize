@@ -5,8 +5,8 @@
 
 @
     let dot = showDot (fglToDot graph)
-    writeFile "file.dot" dot
-    system("dot -Tpng -ofile.png file.dot")
+    writeFile \"file.dot\" dot
+    system(\"dot -Tpng -ofile.png file.dot\")
 @
 -}
 
